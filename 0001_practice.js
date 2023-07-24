@@ -1,8 +1,10 @@
 
 
 
-var greet='good morning kiran'
-var sleec=greet.slice(1,11)
-console.log(sleec);
-var slit=greet.split('')
-console.log(`${slit}`);
+var wordCount=function(n1){
+var wordCount=n1.length
+console.log(`total no of charector-${wordCount}`);
+
+}
+
+wordCount('pravin keep me up')

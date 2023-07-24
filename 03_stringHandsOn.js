@@ -37,7 +37,5 @@ function stringHandsOn(){
     console.log(`check string is start with word Hey- ${checkword2}`);
     console.log('-----------------------Step10-------------------------');
 
-
-
 }
 stringHandsOn()
