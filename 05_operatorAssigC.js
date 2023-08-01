@@ -1,13 +1,11 @@
 
 
-var tcsEligibility= function (gradScore,hscScore,sscScore,candidateName){
-
-    var result=(gradScore>=70 && hscScore>=80 && sscScore>=90)? `Congrats ${candidateName} you are eligible for TCS interview`:`${candidateName} Unfortunately you are not eligible for interview`
-     console.log(result);
-
+function nomber (arg1)if (10>0) {
+    console.log(`yes`);
+    
+} else {
+    console.log(`no`);
 }
+arg1(20)
 
-tcsEligibility(80,86,90,'Pravin')
-tcsEligibility(70,65,55,'Anant')
-tcsEligibility(80,86,90,'Mahesh') 
 
